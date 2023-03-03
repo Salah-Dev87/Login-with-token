@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const mysql = require('mysql')
-const jwt = require("jso")
+const jwt = require("jsonwebtoken")
 const fs = require("fs")
 require('dotenv').config()
 
